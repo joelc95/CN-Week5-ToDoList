@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;700;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+.list-items {
+  padding: 15px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
   color: white;
+  background-color: greenyellow;
+
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: Bold 700;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#input-label  {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#input-field {
+  
+  color: grey;
 }
