@@ -2,7 +2,7 @@
   "name": "list-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://joelc95.github.io/CN-Week5-ToDoList",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -38,7 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    
   },
   "devDependencies": {
     "jest-watch-typeahead": "^0.6.5"
