@@ -37,7 +37,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://joelc95.github.io/CN-Week5-ToDoList/src"
+    "homepage": "https://joelc95.github.io/CN-Week5-ToDoList/tree/main/src"
   },
   "devDependencies": {
     "jest-watch-typeahead": "^0.6.5"
